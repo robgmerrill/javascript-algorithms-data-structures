@@ -15,7 +15,7 @@
 function factorial(num) {
   if (num === 1) {
     console.log("all done");
-    return num;
+    return 1;
   }
   return num * factorial(num - 1);
 }
